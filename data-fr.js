@@ -108,7 +108,7 @@ const portfolioDataFr = {
       wordcount: "65 000",
       summary: "Devenez propriétaire et construisez votre empire immobilier ! Comment réagirez-vous face aux voisins en colère et aux interventions de la police ? Louerez-vous votre appartement à un jeune couple ou à une vieille fille et ses chats ?",
       genres: ["Gestion", "Simulation", "Casual"],
-      contentTypes: ["UI", "Narration", "Page Steam"],
+      contentTypes: ["UI", "Narration", "Tutoriels", "Succès", "Page Steam"],
       dlcs: ["images/thetenants dlc1.jpg"]
     },
     {
@@ -147,7 +147,7 @@ const portfolioDataFr = {
       wordcount: "2 000",
       summary: "Cozyrama est un jeu sandbox qui vous permet de façonner vos dioramas féériques. Sculptez-les, colorez-les, placez des centaines de décorations et ajoutez de petits animaux. Contemplez un monde qui évolue, sans pression ni chrono. Détendez-vous et laissez faire votre imagination !",
       genres: ["Bac à sable", "Casual", "Construction"],
-      contentTypes: ["UI", "Page Steam"],
+      contentTypes: ["UI", "Tutoriels", "Succès", "Page Steam"],
       dlcCount: 0
     }
   ],

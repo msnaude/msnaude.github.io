@@ -108,7 +108,7 @@ const portfolioDataEn = {
       wordcount: "65,000",
       summary: " Become a landlord and deal with problematic tenants as you build your rental property empire. Decide how to react to annoyed neighbors or police interventions. Will you design your apartment for a group of gamer friends or an aspiring musician looking for a new home?",
       genres: ["Management", "Simulation", "Casual"],
-      contentTypes: ["UI", "Narration", "Steam page"],
+      contentTypes: ["UI", "Narration", "Tutorials", "Achievements", "Steam page"],
       dlcs: ["images/thetenants dlc1.jpg"]
     },
     {
@@ -147,7 +147,7 @@ const portfolioDataEn = {
       wordcount: "2,000",
       summary: " Cozyrama is a peaceful sandbox where you shape your own magical dioramas. Sculpt it, pick the right colors, decorate with hundreds of items and add cute animals. Observe a cozy world grow around you! No pressure or timers. Just relax, unwind, and let your imagination bloom!",
       genres: ["Sandbox", "Casual", "Building"],
-      contentTypes: ["UI", "Steam page"],
+      contentTypes: ["UI", "Tutorials", "Achievements", "Steam page"],
       dlcCount: 0
     }
   ],
