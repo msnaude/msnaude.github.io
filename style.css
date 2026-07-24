@@ -360,6 +360,15 @@ header {
   font-size: 0.85rem;
   color: var(--muted);
   margin-bottom: 12px;
+  cursor: default;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.card-task:hover {
+  color: var(--text);
 }
 
 .card-meta {
@@ -378,9 +387,44 @@ header {
 .card-summary {
   font-size: 0.86rem;
   color: var(--summary);
-  margin-bottom: 14px;
+  margin-bottom: 4px;
   flex: 1;
   transition: color 0.3s;
+}
+
+/* ── Content types ── */
+.card-content-types {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin-bottom 0.3s ease;
+}
+
+.card-task:hover + .card-content-types,
+.card-content-types:hover {
+  max-height: 50px;
+  opacity: 1;
+}
+
+.ct-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.ct-tag {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 6px;
+  font-size: 0.68rem;
+  font-weight: 500;
+  background: var(--genre-bg);
+  color: var(--muted);
 }
 
 .card-genres {

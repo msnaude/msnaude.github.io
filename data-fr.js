@@ -15,7 +15,8 @@ const portfolioDataFr = {
     footer: "\u00a9 Marie-Sophie Naude - Traductrice EN > FR",
     langEn: "EN",
     langFr: "FR",
-    colon: " : "
+    colon: " : ",
+    contentTypes: "Contenu"
   },
   genreColors: {
     Simulation: "#57A7EB",
@@ -57,11 +58,12 @@ const portfolioDataFr = {
       wordcount: "+90 000",
       summary: "Balayez tous vos soucis dans ce simulateur de rénovation relaxant ! Achetez, réparez et vendez pour devenir une légende locale, ou munissez-vous de vos outils préférés et bâtissez de zéro. En coop, vous pouvez jouer au mode création et au mode histoire à 2, 3 ou 4 joueurs.",
       genres: ["Simulation", "Casual", "Construction"],
+      contentTypes: ["UI", "Dialogues", "Narration", "Tutoriels", "Succès", "Page Steam", "Annonces Steam"],
       dlcs: ["images/hf2 dlc1.jpg", "images/hf2 dlc2.jpg"]
     },
     {
       title: "House Flipper 1",
-      task: "Localisation complète",
+      task: "Localisation partielle et relecture complète",
       image: "images/hf1.jpg",
       year: 2018,
       developer: "Empyrean",
@@ -69,6 +71,7 @@ const portfolioDataFr = {
       wordcount: "+120 000",
       summary: "House Flipper, c'est l'occasion unique de devenir une équipe de rénovation à vous tout seul. Achetez, réparez et rénovez des maisons en ruines pour leur donner une seconde vie et les vendre à profit !",
       genres: ["Simulation", "Casual", "Construction"],
+      contentTypes: ["UI", "Dialogues", "Tutoriels", "Succès"],
       dlcs: [
         "images/hf1 dlc1.jpg",
         "images/hf1 dlc2.jpg",
@@ -92,6 +95,7 @@ const portfolioDataFr = {
       wordcount: "70 000",
       summary: "Five Dates est une comédie romantique interactive sur le monde imprévisible des rencontres numériques. Avec cinq correspondances féminines potentielles, Vinny explore si la compatibilité, la chimie et la connexion sont toujours possibles dans un monde où le toucher physique n'est plus une option.",
       genres: ["FMV", "Dating Sim", "Interactif"],
+      contentTypes: ["UI", "Dialogues", "Succès"],
       dlcCount: 0
     },
     {
@@ -104,11 +108,12 @@ const portfolioDataFr = {
       wordcount: "65 000",
       summary: "Devenez propriétaire et construisez votre empire immobilier ! Comment réagirez-vous face aux voisins en colère et aux interventions de la police ? Louerez-vous votre appartement à un jeune couple ou à une vieille fille et ses chats ?",
       genres: ["Gestion", "Simulation", "Casual"],
+      contentTypes: ["UI", "Narration", "Page Steam"],
       dlcs: ["images/thetenants dlc1.jpg"]
     },
     {
-      title: "Ultra Mega Cats",
-      task: "Localisation complète et relecture",
+      title: "Ultra Mega Cats - Accès anticipé",
+      task: "Localisation et relecture",
       image: "images/ultramegacats.jpg",
       year: 2025,
       developer: "Fallen Leaf, Unseen Silence, Black Drakkar Games",
@@ -116,6 +121,7 @@ const portfolioDataFr = {
       wordcount: "9 000",
       summary: "Repoussez les hordes d'ennemis en faisant parler la poudre dans Ultra Mega Cats, un jeu de tir coopératif à la 3e personne à la sauce roguelike. Incarnez l'un des Mega Cats, armé jusqu'aux crocs d'une large palette de capacités, et échappez au joug des rongeurs et des oiseaux !",
       genres: ["Roguelite", "Tir", "Multijoueur"],
+      contentTypes: ["UI", "Dialogues"],
       dlcCount: 0
     },
     {
@@ -128,6 +134,7 @@ const portfolioDataFr = {
       wordcount: "+8 000",
       summary: "Maîtrisez l'art de la contrefaçon dans ce jeu de simulation scénarisé. Commencez par trafiquer des documents en modifiant de simples dates et signatures et finissez par falsifier des œuvres d'art qui tromperaient n'importe quel expert.",
       genres: ["Simulation", "Narration"],
+      contentTypes: ["UI", "Dialogues", "Narration", "Éléments graphiques", "Page Steam"],
       dlcCount: 0
     },
     {
@@ -140,6 +147,7 @@ const portfolioDataFr = {
       wordcount: "2 000",
       summary: "Cozyrama est un jeu sandbox qui vous permet de façonner vos dioramas féériques. Sculptez-les, colorez-les, placez des centaines de décorations et ajoutez de petits animaux. Contemplez un monde qui évolue, sans pression ni chrono. Détendez-vous et laissez faire votre imagination !",
       genres: ["Bac à sable", "Casual", "Construction"],
+      contentTypes: ["UI", "Page Steam"],
       dlcCount: 0
     }
   ],

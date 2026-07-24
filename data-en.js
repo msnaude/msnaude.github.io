@@ -15,7 +15,8 @@ const portfolioDataEn = {
     footer: "\u00a9 Marie-Sophie Naude - EN > FR Translator",
     langEn: "EN",
     langFr: "FR",
-    colon: ": "
+    colon: ": ",
+    contentTypes: "Content"
   },
   genreColors: {
     Simulation: "#57A7EB",
@@ -57,7 +58,8 @@ const portfolioDataEn = {
       wordcount: "+90,000",
       summary: " Clean your worries away with this relaxing renovation simulator! Buy, fix, sell, and become a local legend. Or grab your power tools and build anything from scratch! With the online 2-4 players co-op mode, you can play both in sandbox and story mode together. ",
       genres: ["Simulation", "Casual", "Building"],
-      dlcs: ["images/hf2 dlc1.jpg", "images/hf2 dlc2.jpg"]
+      dlcs: ["images/hf2 dlc1.jpg", "images/hf2 dlc2.jpg"],
+      contentTypes: ["UI", "Dialogues", "Narration", "Tutorials", "Achievements", "Steam page", "Steam announcements"]
     },
     {
       title: "House Flipper 1",
@@ -69,6 +71,7 @@ const portfolioDataEn = {
       wordcount: "+120,000",
       summary: " House Flipper is a unique chance to become a one-man renovation crew. Buy, repair and remodel devastated houses. Give them a second life and sell them at a profit!",
       genres: ["Simulation", "Casual", "Building"],
+      contentTypes: ["UI", "Dialogues", "Tutorials", "Achievements"],
       dlcs: [
         "images/hf1 dlc1.jpg",
         "images/hf1 dlc2.jpg",
@@ -92,6 +95,7 @@ const portfolioDataEn = {
       wordcount: "70,000",
       summary: " Five Dates is an interactive rom-com about the unpredictable world of digital dating. With five potential female matches, Vinny explores whether compatibility, chemistry and connection is still possible in a world where physical touch is no longer an option.",
       genres: ["FMV", "Dating Sim", "Interactive"],
+      contentTypes: ["UI", "Dialogues", "Achievements"],
       dlcCount: 0
     },
     {
@@ -104,11 +108,12 @@ const portfolioDataEn = {
       wordcount: "65,000",
       summary: " Become a landlord and deal with problematic tenants as you build your rental property empire. Decide how to react to annoyed neighbors or police interventions. Will you design your apartment for a group of gamer friends or an aspiring musician looking for a new home?",
       genres: ["Management", "Simulation", "Casual"],
+      contentTypes: ["UI", "Narration", "Steam page"],
       dlcs: ["images/thetenants dlc1.jpg"]
     },
     {
-      title: "Ultra Mega Cats",
-      task: "Full localization and proofreading",
+      title: "Ultra Mega Cats - Early access",
+      task: "Localization and proofreading",
       image: "images/ultramegacats.jpg",
       year: 2025,
       developer: "Fallen Leaf, Unseen Silence, Black Drakkar Games",
@@ -116,6 +121,7 @@ const portfolioDataEn = {
       wordcount: "9,000",
       summary: " Blast your way through hordes of enemies in Ultra Mega Cats, a cooperative roguelike third-person shooter. Play As one of the Mega Cats, armed to the fangs with a wide variety of abilities and escape captivity from your Rodent and Bird Overlords!",
       genres: ["Roguelite", "Shooter", "Multiplayer"],
+      contentTypes: ["UI", "Dialogues"],
       dlcCount: 0
     },
     {
@@ -128,6 +134,7 @@ const portfolioDataEn = {
       wordcount: "+8,000",
       summary: " Master the art of forgery in this story-driven simulation game. Start with altering documents by changing single signatures and dates. End up forging entire art pieces that could fool any museum expert.",
       genres: ["Simulation", "Narration"],
+      contentTypes: ["UI", "Dialogues", "Narration", "Graphic elements", "Steam page"],
       dlcCount: 0
     },
     {
@@ -140,6 +147,7 @@ const portfolioDataEn = {
       wordcount: "2,000",
       summary: " Cozyrama is a peaceful sandbox where you shape your own magical dioramas. Sculpt it, pick the right colors, decorate with hundreds of items and add cute animals. Observe a cozy world grow around you! No pressure or timers. Just relax, unwind, and let your imagination bloom!",
       genres: ["Sandbox", "Casual", "Building"],
+      contentTypes: ["UI", "Steam page"],
       dlcCount: 0
     }
   ],

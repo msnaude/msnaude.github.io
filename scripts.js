@@ -121,6 +121,7 @@ function buildGameCard(g, d) {
       <div class="card-body">
         <div class="card-title">${g.title}</div>
         <div class="card-task">${g.task}</div>
+        ${g.contentTypes ? `<div class="card-content-types"><span class="ct-label">${d.ui.contentTypes}${d.ui.colon}</span>${g.contentTypes.map(ct => `<span class="ct-tag">${ct}</span>`).join("")}</div>` : ""}
         <div class="card-meta">
           <span><strong>${d.ui.gameYear}${d.ui.colon}</strong> ${g.year}</span>
           <span><strong>${d.ui.dev}${d.ui.colon}</strong> ${g.developer}</span>
