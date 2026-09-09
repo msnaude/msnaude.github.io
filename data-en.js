@@ -153,14 +153,16 @@ const portfolioDataEn = {
   ],
   subtitling: [
     {
-      title: "Anime under NDA",
+      title: "Though I Am an Inept Villainess",
+      image: "images/tiaaiv.jpg",
       task: "EN > FR Subtitling",
       year: 2026,
-      producer: "XXX",
-      duration: "XXX",
+      producer: "Doga Kobo",
+      duration: "2, 3, 5, 7, 9, 11",
       durationLabel: "Episodes",
-      summary: "Project under NDA",
-      genres: ["Japanese animation"]
+      summary: "Though I Am an Inept Villainess is a Japanese animated series adapted from the manga, set in a fantasy world inspired by imperial China.",
+      genres: ["Japanese animation"],
+      dlcs: ["images/crunchyroll.jpg", "images/disneyplus.jpg"]
     },
     {
       title: "De celles qui guérissent",
@@ -170,7 +172,8 @@ const portfolioDataEn = {
       producer: "Romain Vissol, Mélina Charlot",
       duration: "12 min",
       summary: "A mother in distress is trapped in a destructive routine, until one day her mysterious neighbor forces her to make a decision.",
-      genres: ["Short film"]
+      genres: ["Short film"],
+      dlcs: ["images/tf1plus.png"]
     },
     {
       title: "Jean est tombé amoureux",

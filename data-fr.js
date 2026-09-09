@@ -10,7 +10,7 @@ const portfolioDataFr = {
     dev: "Développeur",
     publisher: "Éditeur",
     words: "Mots",
-    producer: "Producteur",
+    producer: "Production",
     duration: "Durée",
     footer: "\u00a9 Marie-Sophie Naude - Traductrice EN > FR",
     langEn: "EN",
@@ -153,14 +153,16 @@ const portfolioDataFr = {
   ],
   subtitling: [
     {
-      title: "Animé sous NDA",
+      title: "Though I Am an Inept Villainess",
+      image: "images/tiaaiv.jpg",
       task: "Sous-titrage EN > FR",
       year: 2026,
-      producer: "XXX",
-      duration: "XXX",
+      producer: "Doga Kobo",
+      duration: "2, 3, 5, 7, 9, 11",
       durationLabel: "\u00c9pisodes",
-      summary: "Projet sous NDA",
-      genres: ["Animation japonaise"]
+      summary: "Though I Am an Inept Villainess est une série d’animation japonaise adaptée du manga, qui se déroule dans un univers fantastique inspiré de la Chine impériale.",
+      genres: ["Animation japonaise"],
+      dlcs: ["images/crunchyroll.jpg", "images/disneyplus.jpg"]
     },
     {
       title: "De celles qui guérissent",
@@ -170,7 +172,8 @@ const portfolioDataFr = {
       duration: "12 min",
       image: "images/decellesquiguerissent.jpg",
       summary: "Une mère de famille en perdition est prise au piège d'un quotidien destructeur, jusqu'au jour où sa mystérieuse voisine s'impose chez elle pour la forcer à prendre une décision.",
-      genres: ["Court-métrage"]
+      genres: ["Court-métrage"],
+      dlcs: ["images/tf1plus.png"]
     },
     {
       title: "Jean est tombé amoureux",

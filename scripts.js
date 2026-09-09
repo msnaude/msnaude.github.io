@@ -142,6 +142,11 @@ function buildGameCard(g, d) {
 }
 
 function buildSubCard(p, d) {
+  let dlcHtml = "";
+  if (p.dlcs) {
+    dlcHtml = `<div class="dlc-bubbles">${p.dlcs.map(src => `<div class="dlc-bubble sub-dlc"><img src="${src}" alt="DLC"></div>`).join("")}</div>`;
+  }
+
   const imgHtml = p.image ? `<img src="${p.image}" alt="${p.title}">` : `<i class="fas fa-film"></i>`;
 
   return `
@@ -165,6 +170,7 @@ function buildSubCard(p, d) {
             return `<span class="genre-bubble"${style ? ` style="${style}"` : ""}>${gen}</span>`;
           }).join("")}
         </div>
+        ${dlcHtml}
       </div>
     </div>`;
 }
